@@ -16,7 +16,7 @@ urlpatterns = [
     path('guardar/', views.guardar, name= 'guardar' ),
     path('cargar/', views.cargar, name= 'cargar' ),
     path('flujo/', views.flujorequerido, name= 'flujo' ),
-    path('indice/', views.indice, name= 'indice'),
+    path('', views.indice, name= 'indice'),
     path('tutorial/', views.download_file, name= 'tutorial'),
     path('eliminar/<pk>/', views.ProgramaDeleteView.as_view(), name= 'eliminar'),
 

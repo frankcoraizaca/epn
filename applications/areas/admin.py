@@ -6,7 +6,7 @@ from .models import areaslista
 
 class areaslistaAdimn(admin.ModelAdmin):
     search_fields=('areas'),
-    ordering=['areas']
+    
 
 
 admin.site.register(areaslista, areaslistaAdimn)

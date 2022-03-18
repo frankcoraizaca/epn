@@ -1,4 +1,4 @@
-from django.core.exceptions import RequestAborted
+
 from django.db.models import query
 from django.db.models.query import QuerySet
 from django.forms.models import fields_for_model
